@@ -70,7 +70,7 @@ export default class PersonList extends React.Component {
                             target='_self /'
                           >
                             <div className='slider__text'>
-                              <h5 className='slider__description'>{el.title}</h5>
+                              <h5 className='slider__title'>{el.title}</h5>
                               <p className='slider__description'>
                                 Prepration Time: {el.readyInMinutes} Minutes
                               </p>
