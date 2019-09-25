@@ -52,34 +52,8 @@ export default class PersonList extends React.Component {
           {/* Showing header information here*/}
           <Header />
           {/* End header information here*/}
-
-          {/* Showing slider information here*/}
-          <div className='cards-sliders'>
-            <div className='cards-slider-wrapper'>
-              {slider.results.map(el => {
-                return (
-                  <article className='slider__slide' key={el.id}>
-                    <a
-                      data-carousel-link=''
-                      data-internal-referrer='hp_carousel 01_Oktoberfest Recipes'
-                      data-referring-position='carousel 01'
-                      href={`${baseUri}${el.image}`}
-                      target='_self /'
-                    >
-                      <div className='slider__text'>
-                        <h5 className='slider__description'>{el.title}</h5>
-                        <p className='slider__description'>
-                          Prepration Time: {el.readyInMinutes} Minutes
-                        </p>
-                      </div>
-                      <img key={el.id} src={`${baseUri}${el.image}`} />
-                    </a>
-                  </article>
-                );
-              })}
-            </div>
-          </div>
-          {/* End slider information here*/}
+          <div className="slider_image"></div>
+          
           <div className="clear"></div>
 
           {/* Showing Content information here*/}
@@ -108,10 +82,6 @@ export default class PersonList extends React.Component {
                     }
                 )}
          `  </div> }
-            
-           
-          
-          
           {/* End Content Part From Here using the API*/}
         </div>
       );
