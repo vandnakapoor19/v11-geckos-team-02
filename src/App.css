@@ -24,6 +24,10 @@ body{
   color: #09d3ac;
 }
 
+.slider_image{
+  background: url('../src/brunch-header.jpg')no-repeat center center/cover;
+  height: 420px;
+}
 .header-section {
   display: flex;
 }
