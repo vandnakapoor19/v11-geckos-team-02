@@ -80,16 +80,15 @@ form.form-inline.my-2.my-lg-0.mi-auto.header-style {
   position: relative;
 }
 .slider__text {
-  background: red;
+  background:#fff;
   bottom: 0;
-  color: #fff;
+  color:rgb(11, 32, 43);
   overflow: hidden;
-  padding: 10% 10% 10%;
   position: absolute;
   white-space: normal;
   width: 100%;
   z-index: 100;
-  opacity: 0;
+  min-height: 38%;
 }
 .slider__text:hover {
   opacity: 1;
@@ -104,14 +103,14 @@ form.form-inline.my-2.my-lg-0.mi-auto.header-style {
 
 .recipes-item {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   margin-top: 2%;
 }
 
 article img {
-  width: 300px;
+  width: 100%;
   height: 300px;
 }
 
@@ -119,3 +118,6 @@ article img {
   clear: both;
 }
 
+.slider__title:hover{
+  color:green;
+}
