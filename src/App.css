@@ -55,7 +55,6 @@ body{
 .container {
   margin: 0 auto;
   max-width: 90%;
-  overflow: auto;
 }
 #navbar h1 {
   float: left;
@@ -89,6 +88,7 @@ form.form-inline.my-2.my-lg-0.mi-auto.header-style {
   width: 100%;
   z-index: 100;
   min-height: 38%;
+  text-align: center;
 }
 .slider__text:hover {
   opacity: 1;
@@ -104,8 +104,8 @@ form.form-inline.my-2.my-lg-0.mi-auto.header-style {
 .recipes-item {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-column-gap: 2%;
+  grid-row-gap: 2%;
   margin-top: 2%;
 }
 
@@ -120,4 +120,17 @@ article img {
 
 .slider__title:hover{
   color:green;
+}
+
+#c506 {
+  max-width: 778px;
+  margin: auto;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+}
+
+article.slider__slide {
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
 }
